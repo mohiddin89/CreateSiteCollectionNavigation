@@ -101,7 +101,7 @@ namespace Demo
             foreach (NavigationNode node in quickLaunchColl)
             {
                 Console.WriteLine(node.Title);
-                if (node.Title == "SiteCollection")
+                if (node.Title == "SiteCollection Node")
                 {
                     nodes = node.Children;
                     NavigationNodeCreationInformation nodeCreation = new NavigationNodeCreationInformation();
