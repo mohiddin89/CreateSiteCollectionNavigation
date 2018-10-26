@@ -57,13 +57,13 @@ namespace Demo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            List<string> _urlList = new List<string>();
-            _urlList.Add("http://sp2010app/subsite1");
-            _urlList.Add("http://sp2010app/subsite2");
-            _urlList.Add("http://sp2010app/subsite3");
-            _urlList.Add("http://sp2010app/subsite4");
-            _urlList.Add("http://sp2010app/subsite5");
-            _urlList.Add("http://sp2010app/subsite6");
+            //List<string> _urlList = new List<string>();
+            //_urlList.Add("http://sp2010app/subsite1");
+            //_urlList.Add("http://sp2010app/subsite2");
+            //_urlList.Add("http://sp2010app/subsite3");
+            //_urlList.Add("http://sp2010app/subsite4");
+            //_urlList.Add("http://sp2010app/subsite5");
+            //_urlList.Add("http://sp2010app/subsite6");
 
 
 
@@ -93,7 +93,7 @@ namespace Demo
 
             //NavigationNodeCollection navColl=
 
-
+               
             NavigationNodeCollection quickLaunchColl = web.Navigation.QuickLaunch;
             context.Load(quickLaunchColl);
             context.ExecuteQuery();
